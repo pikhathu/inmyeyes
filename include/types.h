@@ -1,0 +1,3 @@
+/*
+    All type definitions used throughout the project.
+*/
