@@ -236,5 +236,39 @@
     ],
     "directory": "/home/khathu/dev/inmyeyes",
     "output": "build/array/_array_print.o"
+  },
+  {
+    "file": "src/tests/str/str_tests.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/tests/str/str_tests.c",
+      "-o",
+      "build/tests/str/str_tests.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/tests/str/str_tests.o"
+  },
+  {
+    "file": "src/tests/run_tests.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/tests/run_tests.c",
+      "-o",
+      "build/tests/run_tests.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/tests/run_tests.o"
   }
 ]
