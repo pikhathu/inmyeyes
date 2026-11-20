@@ -4,7 +4,7 @@
 #ifndef ARRAY_POP_H
 #define ARRAY_POP_H
 
-#include "../types.h";
+#include "../types.h"
 
 void *_array_pop_double(Array **arr);
 void *_array_pop_float(Array **arr);

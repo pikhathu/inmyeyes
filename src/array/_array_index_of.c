@@ -1,7 +1,7 @@
-#include "../../include/types.h"
-#include "../../include/str/str.h"
+#include "types.h"
+#include "str/str.h"
 
-int _array_index_of_double(const Array **arr, const double value) {
+int _array_index_of_double(Array **arr, const double value) {
     if (arr == NULL || *arr == NULL)
         return -1;
 
@@ -16,7 +16,7 @@ int _array_index_of_double(const Array **arr, const double value) {
     return -1;
 }
 
-int _array_index_of_float(const Array **arr, const float value) {
+int _array_index_of_float(Array **arr, const float value) {
     if (arr == NULL || *arr == NULL)
         return -1;
 
@@ -31,7 +31,7 @@ int _array_index_of_float(const Array **arr, const float value) {
     return -1;
 }
 
-int _array_index_of_int(const Array **arr, const int value) {
+int _array_index_of_int(Array **arr, const int value) {
     if (arr == NULL || *arr == NULL)
         return -1;
 
@@ -46,7 +46,7 @@ int _array_index_of_int(const Array **arr, const int value) {
     return -1;
 }
 
-int _array_index_of_size_t(const Array **arr, const size_t value) {
+int _array_index_of_size_t(Array **arr, const size_t value) {
     if (arr == NULL || *arr == NULL)
         return -1;
 
@@ -61,7 +61,7 @@ int _array_index_of_size_t(const Array **arr, const size_t value) {
     return -1;
 }
 
-int _array_index_of_string(const Array **arr, const char *value) {
+int _array_index_of_string(Array **arr, const char *value) {
     if (arr == NULL || *arr == NULL)
         return -1;
 

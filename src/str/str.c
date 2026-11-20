@@ -1,6 +1,6 @@
 #include <stdint.h>
 #include <stdlib.h>
-#include "../../include/str/str.h"
+#include "str/str.h"
 
 size_t str_len(const char *str) {
     if (str == NULL)

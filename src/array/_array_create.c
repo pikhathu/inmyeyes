@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include "../../include/types.h"
-#include "../../include/array/array_create.h"
+#include "types.h"
+#include "array/_array_create.h"
 
 Array *_array_create_double(void) {
     Array *new_arr = malloc(sizeof(Array));

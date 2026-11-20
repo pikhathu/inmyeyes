@@ -1,0 +1,240 @@
+[
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/main.c",
+      "-o",
+      "build/main.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/main.o"
+  },
+  {
+    "file": "src/str/str.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/str/str.c",
+      "-o",
+      "build/str/str.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/str/str.o"
+  },
+  {
+    "file": "src/array/array.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/array.c",
+      "-o",
+      "build/array/array.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/array.o"
+  },
+  {
+    "file": "src/array/_array_create.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_create.c",
+      "-o",
+      "build/array/_array_create.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_create.o"
+  },
+  {
+    "file": "src/array/_array_index_of.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_index_of.c",
+      "-o",
+      "build/array/_array_index_of.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_index_of.o"
+  },
+  {
+    "file": "src/array/_array_push.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_push.c",
+      "-o",
+      "build/array/_array_push.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_push.o"
+  },
+  {
+    "file": "src/array/_array_contains.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_contains.c",
+      "-o",
+      "build/array/_array_contains.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_contains.o"
+  },
+  {
+    "file": "src/array/_array_shift.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_shift.c",
+      "-o",
+      "build/array/_array_shift.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_shift.o"
+  },
+  {
+    "file": "src/array/_array_delete_at.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_delete_at.c",
+      "-o",
+      "build/array/_array_delete_at.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_delete_at.o"
+  },
+  {
+    "file": "src/array/_array_delete.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_delete.c",
+      "-o",
+      "build/array/_array_delete.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_delete.o"
+  },
+  {
+    "file": "src/array/_array_destroy.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_destroy.c",
+      "-o",
+      "build/array/_array_destroy.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_destroy.o"
+  },
+  {
+    "file": "src/array/_array_find.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_find.c",
+      "-o",
+      "build/array/_array_find.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_find.o"
+  },
+  {
+    "file": "src/array/_array_pop.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_pop.c",
+      "-o",
+      "build/array/_array_pop.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_pop.o"
+  },
+  {
+    "file": "src/array/_array_print.c",
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "-Iinclude",
+      "-c",
+      "src/array/_array_print.c",
+      "-o",
+      "build/array/_array_print.o"
+    ],
+    "directory": "/home/khathu/dev/inmyeyes",
+    "output": "build/array/_array_print.o"
+  }
+]

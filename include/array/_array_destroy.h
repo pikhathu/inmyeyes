@@ -6,10 +6,7 @@
 
 #include "../types.h"
 
-void _array_destroy_double(Array **arr);
-void _array_destroy_float(Array **arr);
-void _array_destroy_int(Array **arr);
-void _array_destroy_size_t(Array **arr);
+void _array_destroy_primitives(Array **arr);
 void _array_destroy_string(Array **arr);
 
 #endif
